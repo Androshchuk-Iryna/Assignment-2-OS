@@ -221,7 +221,7 @@ label exec_file
     copy var:parsedArg2 to *REG_RES
 
     // add 8 to get REG_C address of process and set parameter 3
-    write 8 to REG_C
+    write 8 to REG_B
     cpu_exec
     copy var:parsedArg3 to *REG_RES
 
